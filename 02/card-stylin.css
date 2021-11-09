@@ -1,8 +1,28 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background: blanchedalmond;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: palegreen;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 400px) {
+  h1.sub-header {
+    padding: 10px;
+
+    border: 1px solid red;
+    background-color: blanchedalmond;
+  }
+}
+div .sub-header {
+  color: blue;
+}
+
+#main {
+  text-decoration: underline;
+}
+
+a:hover {
+  color: green;
 }
